@@ -9,15 +9,16 @@ engines:
     enabled: true
   fixme:
     enabled: true
+  tslint:
+    enabled: true
+    channel: latest
+    config: tslint.json
 ratings:
   paths:
-  - "**.inc"
-  - "**.js"
-  - "**.jsx"
-  - "**.module"
-  - "**.php"
-  - "**.py"
-  - "**.rb"
+    - "**.js"
+    - "**.ts"
 exclude_paths:
-- "test/"
-- "test/**"
+  - coverage
+  - dist
+  - node_modules
+  - test
