@@ -9,6 +9,7 @@ before_install:
   - yarn global add greenkeeper-lockfile@1
   - yarn global add codeclimate-tslint
   - yarn global add codeclimate-test-reporter
+  - codeclimate engines:enable tslint
 before_script:
   - greenkeeper-lockfile-update
 script:
