@@ -1,24 +1,13 @@
----
 engines:
-  duplication:
-    enabled: true
-    config:
-      languages:
-      - javascript
-  eslint:
-    enabled: true
-  fixme:
-    enabled: true
   tslint:
     enabled: true
     channel: beta
     config: tslint.json
 ratings:
   paths:
-    - "**.js"
     - "**.ts"
 exclude_paths:
   - coverage
   - dist
+  - lib
   - node_modules
-  - test
