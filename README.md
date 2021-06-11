@@ -1,3 +1,8 @@
+Archived
+===
+
+**This repository is archived**. Development migrated to https://github.com/RobotlegsJS/RobotlegsJS-Framework/blob/master/packages/signals.
+
 SignalsJS
 ===
 
@@ -8,10 +13,6 @@ SignalsJS
 
 **SignalsJS** is a [TypeScript](https://www.typescriptlang.org/) port of [AS3 Signals](https://github.com/robertpenner/as3-signals).
 [15KB compressed](dist/signals.min.js).
-
-Archived
----
-**This repository is archived**. Development migrated to https://github.com/RobotlegsJS/RobotlegsJS-Framework/tree/master/packages/signals.
 
 About
 ---
